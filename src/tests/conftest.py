@@ -8,6 +8,7 @@ from fastapi.testclient import TestClient
 from src.app import app, activities
 
 
+
 @pytest.fixture
 def client():
     """
